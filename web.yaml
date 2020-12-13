@@ -3,7 +3,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: webserver
-  namespace: ske
+  namespace: vfdvdvfdvdfvdfvdd2525
   labels:
     app: apache
 spec:
@@ -33,7 +33,7 @@ apiVersion: v1
 kind: Service
 metadata:
   name: web-service
-  namespace: ske
+  namespace: vfdvdvfdvdfvdfvdd2525
   labels:
     run: web-service
 spec:
@@ -48,7 +48,7 @@ apiVersion: v1
 kind: PersistentVolumeClaim     
 metadata:                       
    name: pvc-sym-uploud
-   namespace: ske
+   namespace: vfdvdvfdvdfvdfvdd2525
 spec:                           
    accessModes:                  
    - ReadWriteOnce              
